@@ -12,8 +12,17 @@ Instalando dependências do Projeto
  npm i express dotenv @prisma/client
 ```
 
-
 Gerando o arquivo de configurações do typescript (tsconfig.json)
 ```
 npx tsc --init
+```
+
+Inicializa Prisma
+```
+npx prisma init
+```
+
+Gera schemas do Prisma
+```
+npx prisma generate
 ```
